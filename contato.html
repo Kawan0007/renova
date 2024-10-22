@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Renova</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar. Envie-nos uma mensagem!</p>
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="Logo da Renova" class="logo-img"> 
+            
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form class="form-contato" action="#" method="POST">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" class="form-control" placeholder="Digite o assunto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-cta">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
